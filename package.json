@@ -1,4 +1,7 @@
-{
+{  "scripts": {
+  "start": "node index.js",
+  "dev": "node index.js"
+},
   "dependencies": {
     "bluebird": "^2.9.27",
     "body-parser": "^1.6.6",

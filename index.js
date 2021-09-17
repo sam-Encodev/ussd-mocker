@@ -7,7 +7,7 @@ var express = require('express')
 
 var app = express();
 
-app.set('port', 8773);
+app.set('port', process.env.PORT || 8773);
 app.set('domain', '127.0.0.1');
 app.set('view engine', 'jade');
 app.set('views', 'app/views');
